@@ -1,0 +1,26 @@
+.content_register {
+    background-image: url("https://codingcirculate-restaurant-design.on.fleek.co/static/media/home-img.965e18e60a1521e7e1af");
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_register {
+    width: 360px;
+    //height: 340px;
+    padding: 10px 6px 4px 6px;
+    border: solid 1px #fff;
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 6px;
+    text-align: center;
+}
+.button_register,.button_login {
+    width: 160px;
+    height: 36px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 8px;
+}
+.button_login {
+    opacity: 0.5
+}

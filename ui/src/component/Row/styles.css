@@ -1,0 +1,43 @@
+.content_menu {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.content_meal {
+    border: 1px solid #ffc107;
+    margin: 0 4px;
+    color: #fff;
+}
+.image_product {
+    width: 160px;
+}
+.name_product {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    padding: 4px;
+}
+@media only screen and (max-width:740px) {
+    .name_title {
+        color:rgb(201 152 6) !important;
+    }
+    .content_menu {
+        display:block !important; 
+        max-height:300px !important;
+        overflow:hidden;
+        overflow-y:scroll;
+    }
+    .content_meal {
+        margin:4px 0
+    }
+    .image_product {
+        width:100%;
+        height:192px;
+    }
+    .name_product {
+        white-space:nowrap !important;
+        overflow: hidden;
+        max-width: 100%;
+    }
+}

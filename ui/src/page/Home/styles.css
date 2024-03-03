@@ -1,0 +1,25 @@
+.content_home {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    background-image: url('https://codingcirculate-restaurant-design.on.fleek.co/static/media/home-img.965e18e60a1521e7e1af');
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    padding-top: 160px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.menu {
+    padding: 10px 0;
+}
+/* mobile */
+@media only screen and (max-width: 46.1875em) {
+    .title {
+        font-size: 4rem !important;
+    }
+    
+}

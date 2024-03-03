@@ -1,0 +1,41 @@
+.contentMeal {
+    display:flex
+}
+.content_cooking_body {
+    margin: 10px 0
+}
+.imageMeal {
+    width:200px;
+    height:200px
+}
+.contentMeal {
+    margin: 10px 0
+}
+.detailMeal {
+    display:flex;
+    opacity:1
+}
+.imageMeal {
+    margin:0 6px 0 0
+}
+.nameMeal {
+    color:#fff
+}
+.introduce {
+    font-size: 1.4rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3; 
+    color:#fff;
+    font-weight: 300;
+    margin:10px 0;
+}
+
+@media only screen and (max-width: 740px) {
+    .imageMeal {
+        width:100px;
+        height:100px
+    }
+}
+

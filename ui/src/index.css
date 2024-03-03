@@ -1,0 +1,25 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #0000;
+}
+h1,
+h4,
+h3 {
+    margin: 0;
+    color:#fff;
+    padding:0
+}
+a,
+p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color:#fff
+}
+html {
+    font-size: 62.5%;
+}
+
