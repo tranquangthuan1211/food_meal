@@ -2,7 +2,6 @@
 
 ## Requirements 
 - install node 
-- install firebase
 ## development 
 - cd ui
 - npm install

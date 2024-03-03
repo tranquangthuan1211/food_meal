@@ -33,7 +33,7 @@ export default function Login() {
 
     const handleLogin = async () => {
       try {
-        const response = await fetch('https://server-restaurant-7f27.onrender.com/', {
+        const response = await fetch('http://localhost:3000/', {
           method: 'POST',
           credentials: 'same-origin',
           headers: {
